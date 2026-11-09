@@ -20,8 +20,7 @@ describe('Recipe API Tests', () => {
         .expect(200);
 
       expect(Array.isArray(response.body)).toBe(true);
-      expect(response.body.length).toBeGreaterThan(0);
-    });
+expect(response.body.length).toBeGreaterThan(100);    });
 
     test('should return recipes with correct structure', async () => {
       const response = await request(app)
