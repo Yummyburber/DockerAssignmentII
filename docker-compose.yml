@@ -18,4 +18,4 @@ services:
       - VITE_API_URL=http://localhost:5000
 
 volumes:
-  db-data:
+  db-data:docker-compose up --build
